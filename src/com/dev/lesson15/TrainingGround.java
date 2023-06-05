@@ -10,8 +10,10 @@ public class TrainingGround {
         Hero mage = new Mage("Гэндальф", 20);
         // mage.attackEnemy();
 
-        Hero archer = new Archer("Леголас", 10);
+        Archer archer = new Archer("Леголас", 10);
         // archer.attackEnemy();
+
+        Archer.Wolf wolf = archer.new Wolf("Second wolf", 11);
 
         Enemy enemy = new Enemy("Зомби", 100);
 
