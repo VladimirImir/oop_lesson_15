@@ -7,6 +7,10 @@ import com.dev.lesson18.weapon.Bow;
 import com.dev.lesson18.weapon.Sword;
 import com.dev.lesson18.weapon.Weapon;
 
+/** Collection - shift-shift - ВВЕДЕНИЕ. */
+/** Какие есть интерфейсы коллекции ? */
+/** Ctrl + H - открыть иерархию наследования для текущего класса. */
+
 public class WeaponRunner {
 
     public static void main(String[] args) {
