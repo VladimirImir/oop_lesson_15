@@ -7,11 +7,15 @@ import com.dev.lesson18.weapon.Bow;
 import com.dev.lesson18.weapon.Sword;
 import com.dev.lesson18.weapon.Weapon;
 
-/** Collection - shift-shift - ВВЕДЕНИЕ. */
+/**
+ * Collection - shift-shift - ВВЕДЕНИЕ.  Какие есть интерфейсы коллекции ?
+ */
 /** Какие есть интерфейсы коллекции ? */
 /** Ctrl + H - открыть иерархию наследования для текущего класса. */
 
 /** 19.2 - Оценка сложности алгоритмов. Big O notation. */
+
+/** List.of - создают неизменяемый список! */
 
 public class WeaponRunner {
 
