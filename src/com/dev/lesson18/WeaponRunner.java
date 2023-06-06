@@ -11,6 +11,8 @@ import com.dev.lesson18.weapon.Weapon;
 /** Какие есть интерфейсы коллекции ? */
 /** Ctrl + H - открыть иерархию наследования для текущего класса. */
 
+/** 19.2 - Оценка сложности алгоритмов. Big O notation. */
+
 public class WeaponRunner {
 
     public static void main(String[] args) {
