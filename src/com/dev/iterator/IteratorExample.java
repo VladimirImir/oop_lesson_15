@@ -13,24 +13,29 @@ public class IteratorExample {
         /*for (int i = 0; i < list.size(); i++) {
             Integer integer = list.get(i);
         }*/
-        /*for (Integer integer : list) {
+        for (Integer integer : list) {
             System.out.println(integer);
-        }*/
+        }
+        for (Integer integer : list) {
+            System.out.println(integer);
+        }
+
+        list.forEach(System.out::println);
 
         /** Пример использования итератора. */
-        for (Iterator<Integer> iterator = list.iterator(); iterator.hasNext();){
+
+        /** Использование метода remove(). */
+        /** Через цикл foreach удалить элемент не получится! Будет ошибка! foreach - только на чтение. */
+        /** Вызывая метод hasNext() - смотрим, есть ли элемент. */
+        /** Вызывая метод next() - передвигаем курсор.*/
+
+        /*for (Iterator<Integer> iterator = list.iterator(); iterator.hasNext(); ) {
             Integer next = iterator.next();
-
-            /** Использование метода remove(). */
-            /** Через цикл foreach удалить элемент не получится! Будет ошибка! foreach - только на чтение. */
-            /** Вызывая метод hasNext() - смотрим, есть ли элемент. */
-            /** Вызывая метод next() - передвигаем курсор. */
-
-            if (next == 3 || next ==4){
+            if (next == 3 || next == 4) {
                 iterator.remove();
             }
         }
-        System.out.println(list);
+        System.out.println(list);*/
 
         /*Iterator<Integer> iterator = list.iterator();
         while (iterator.hasNext()){
